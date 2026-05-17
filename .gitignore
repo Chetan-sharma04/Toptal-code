@@ -1,0 +1,46 @@
+# Virtual Environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# VSCode / Antigravity
+.vscode/
+
+# Data files
+data/raw/*
+data/processed/*
+data/embeddings/*
+
+# Vector DB
+chroma/
+faiss_index/
+
+# Build
+dist/
+build/
+
+# uv
+.python-version
